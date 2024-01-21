@@ -1,4 +1,3 @@
-// components/BudgetForm.js
 import React, { useState } from 'react';
 import { useBudget } from '../context/BudgetContext';
 
