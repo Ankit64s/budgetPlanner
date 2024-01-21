@@ -1,7 +1,6 @@
 // components/FinancialSummary.js
 import React from 'react';
 import { useBudget } from '../context/BudgetContext';
-// import './FinancialSummary.css'; // Assuming you have a separate CSS file
 
 const FinancialSummary = () => {
   const { state } = useBudget();
