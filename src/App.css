@@ -1,19 +1,22 @@
-body {
+/* Add this CSS to your existing CSS or create a new CSS file and import it */
+
+ body {
   font-family: 'Arial', sans-serif;
+  /* background-color: #f8f8f8; */
   margin: 0;
   padding: 0;
   background-image: linear-gradient(135deg,rgb(230, 196, 134),rgb(219, 136, 219));
   background-repeat: no-repeat;
-  background-size: cover; 
+  background-size: cover; /* Cover the entire viewport */
   min-height: 100vh;
   resize: both;
   
 }
 
 .form-container {
-  display: none; 
+  display: none; /* Hide form by default */
   max-width: 400px;
-  margin: 20px auto; 
+  margin: 20px auto; /* Adjusted margin for both horizontal and vertical spacing */
   padding: 20px;
   height: 100%;
   border: 1px solid #ddd;
@@ -23,8 +26,8 @@ body {
 }
 
 .form-container.activeForm {
-  display: block; 
-  animation: fadeIn 0.3s ease-in-out;
+  display: block; /* Show form when active */
+  animation: fadeIn 0.3s ease-in-out; /* Add fade-in animation */
   background-image: linear-gradient(140deg, rgb(220, 148, 148),cyan);
   height: 100%;
 }
@@ -86,8 +89,8 @@ table {
   margin-top: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  margin: 20px auto; 
-  padding: 15px; 
+  margin: 20px auto; /* Adjusted margin for both horizontal and vertical spacing */
+  padding: 15px; /* Added padding */
 }
 
 th, td {
@@ -108,7 +111,6 @@ th {
 .button-container {
   margin-top: 10px;
   display: flex;
-  height: 100%;
   justify-content: space-between;
 }
 
@@ -118,6 +120,7 @@ th {
 }
 
 @media (max-width: 600px) {
+  /* Add your responsive styles here */
   .form-container {
     max-width: 100%;
   }

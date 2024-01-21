@@ -1,7 +1,9 @@
+// App.js
 import React from 'react';
-import { BudgetProvider } from './context/BudgetContext';
+import { BudgetProvider } from './context/BudgetContext';  // Update import statement
 import BudgetPlanner from './components/BudgetPlanner';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
         <h1>Budget Planner</h1>
         <BudgetPlanner />
       </div>
+      <Footer/>
     </BudgetProvider>
   );
 }
