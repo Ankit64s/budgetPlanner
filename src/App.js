@@ -1,6 +1,5 @@
-// App.js
 import React from 'react';
-import { BudgetProvider } from './context/BudgetContext';  // Update import statement
+import { BudgetProvider } from './context/BudgetContext';
 import BudgetPlanner from './components/BudgetPlanner';
 import './App.css';
 
